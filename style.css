@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Cookie|Fredoka+One|Montserrat|Roboto&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    height: 600px;
+    font-family: Roboto, 'sans-serif';
+}
+
+canvas {
+    padding: 0;
+    margin: 0;
+}
+
+div.btnbg {
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+div.jumbo {
+    width: 80%;
+    margin: 5% 8%;
+    position: absolute;
+    top: 0;
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    padding-left: 2%;
+    opacity: 0.85;
+}
+
+#item_head {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    top: -22px;
+    left: 50px;
+}
+
+.product-img img {
+    width: 30% !important;
+    padding: 25px;
+}
+
+.product-info {
+    position: absolute;
+    top: 0;
+    left: 420px;
+    margin-top: 70px;
+    font-size: 25px;
+    font-family: Montserrat;
+}
+
+.product-info li {
+    width: 90%;
+    margin-top: 20px;
+    line-height: 35px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin: 0;
+    padding-left: 1em;
+    position: relative;
+}
+
+ul li:after {
+    content: '';
+    height: .4em;
+    width: .4em;
+    background: #D2153A;
+    display: block;
+    position: absolute;
+    transform: rotate(45deg);
+    top: 0.4em;
+    left: 0;
+}
+
+.jumbo2 {
+    position: absolute;
+    top: 100vh !important;
+}
+
+.jumbo3 {
+    position: absolute;
+    top: 200vh !important;
+}
