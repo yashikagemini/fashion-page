@@ -6,6 +6,7 @@ body {
     overflow-x: hidden;
     height: 600px;
     font-family: Roboto, 'sans-serif';
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
 }
 
 canvas {
@@ -89,4 +90,34 @@ ul li:after {
 .jumbo3 {
     position: absolute;
     top: 200vh !important;
+}
+
+.footering {
+    background: white;
+    padding: 30px;
+    position: relative;
+    top: 340%;
+    font-size: 18px;
+    color: #b12a5b;
+}
+
+a {
+    text-decoration: none;
+    color: #b12a5b;
+}
+
+#about {
+    padding-left: 100px;
+}
+
+.footering span {
+    padding-left: 250px;
+}
+
+#care {
+    padding-left: 150px;
+}
+
+#policy {
+    padding-left: 150px;
 }
